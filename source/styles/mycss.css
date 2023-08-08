@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+body {
+    font-family: Michroma, serif;
+    background-image: linear-gradient(to right, #484de3, #3344b9, #253990, #1f2d68, #1a2141);
+}
+
+p {
+    color:aquamarine;
+}
+
+.nav-link {
+    color:aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(165, 162, 162);
+}
+
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-toggler {
+    background-color: rgb(165, 162, 162);
+}
+
+.sidebar {
+        
+    color:aquamarine;
+    background-image: linear-gradient(to left, #777ac1, #5c60a0, #434880, #2a3161, #111b44);
+}
+
+.card {
+    background-image: linear-gradient(to left, #777ac1, #5c60a0, #434880, #2a3161, #111b44);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color:aquamarine;
+}
+
+.left-bar {
+    background-color:blue;
+}
+
+.slide-text {
+    color: aquamarine;
+    
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.footer, .btn-outline-primary {
+    background-image: linear-gradient(to left, #295518, #29611d, #276d22, #237929, #198630);
+    border-top: 4px solid red;
+}
+
+.team a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.reserved p {
+    color: white;
+}
+
+.team, .reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-icons {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.head-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 800px;
+    
+}
+
+.head-icons img {
+    width: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
